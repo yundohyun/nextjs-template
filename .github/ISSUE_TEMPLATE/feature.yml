@@ -1,0 +1,19 @@
+name: "🚀 Feature Request"
+description: "Suggest a new idea or feature."
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem Statement"
+      description: "Is your feature request related to a problem? Please describe."
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      description: "A clear and concise description of what you want to happen."
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives Considered"
+      description: "Any alternative solutions or features you've considered."

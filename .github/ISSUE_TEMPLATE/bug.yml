@@ -1,0 +1,31 @@
+name: "🐛 Bug Report"
+description: "Report a bug or unexpected error."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide detailed information to help us solve the issue!
+  - type: input
+    id: summary
+    attributes:
+      label: "Issue Summary"
+      placeholder: "What is the problem?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the behavior."
+      placeholder: "1. Go to...\n2. Click on...\n3. Scroll down to..."
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected vs. Actual Behavior"
+      placeholder: "What did you expect to happen, and what happened instead?"
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      placeholder: "OS: macOS, Browser: Chrome, Version: 1.2.0, etc."

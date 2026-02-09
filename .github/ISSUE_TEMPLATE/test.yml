@@ -1,0 +1,14 @@
+name: "🧪 Test"
+description: "Adding missing tests or correcting existing tests."
+labels: ["test"]
+body:
+  - type: input
+    id: test-target
+    attributes:
+      label: "Test Target"
+      placeholder: "e.g., LoginService, User API"
+  - type: textarea
+    id: details
+    attributes:
+      label: "Test Details"
+      description: "Describe the test cases you are adding or modifying."

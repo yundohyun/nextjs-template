@@ -1,0 +1,14 @@
+name: "📝 Documentation"
+description: "Improvements or additions to documentation."
+labels: ["documentation"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: "Target Document"
+      placeholder: "e.g., README.md, API Guide, Contribution Guide"
+  - type: textarea
+    id: change
+    attributes:
+      label: "Description of Changes"
+      description: "What needs to be updated or added?"
